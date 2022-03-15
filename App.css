@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(211, 231, 248);
+}
+
+.container {
+    text-align: center;
+}
+
+.legend {
+    border: 1px solid black;
+}
+
+#tooltip 
+{	
+    position: absolute;			
+    text-align: center;			
+    width: 300px;					
+    height: auto;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lavender;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
